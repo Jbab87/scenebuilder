@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: 00004;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scenebuilder.todo.ToDoController">
+   <children>
+      <Label alignment="CENTER" layoutX="216.0" layoutY="23.0" prefHeight="66.0" prefWidth="168.0" text="To Do List" textAlignment="CENTER">
+         <font>
+            <Font name="Stencil" size="24.0" />
+         </font>
+      </Label>
+      <ListView layoutX="201.0" layoutY="118.0" prefHeight="200.0" prefWidth="225.0" />
+      <TextField layoutX="235.0" layoutY="143.0" />
+   </children>
+</AnchorPane>
